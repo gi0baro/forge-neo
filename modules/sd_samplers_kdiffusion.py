@@ -27,6 +27,7 @@ samplers_k_diffusion = [
     ("Kohaku LoNyu Yog", "sample_Kohaku_LoNyu_Yog", ["Kohaku_LoNyu_Yog"], {}),
     ("Restart", sd_samplers_extra.restart_sampler, ["restart"], {"scheduler": "karras", "second_order": True}),
     ("UniPC", sd_samplers_extra.sample_unipc, ["unipc"], {"discard_next_to_last_sigma": True}),
+    ("ER SDE", sd_samplers_extra.er_sde_sampler, ["er_sde"], {})
 ]
 
 
